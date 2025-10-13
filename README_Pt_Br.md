@@ -198,4 +198,5 @@ cd mde-assessment-powershell
 
 # Execução direta
 .\Assessment-MDE-V2.4.ps1
+
 ```
