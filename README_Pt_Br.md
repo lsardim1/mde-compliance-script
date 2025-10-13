@@ -85,7 +85,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ### **Novidades v2.4:**
 - **Reorganização completa**: separação clara entre MDE Nativo e Windows
 - **Proteção para Firefox** (Enhanced Tracking Protection)
-- **Interface visual profissional** com boxes, ícones e barras de progresso
+- **Interface visual** com boxes, ícones e barras de progresso
 - **Score de conformidade** com visualização gráfica por categoria
 - **Indicadores de progresso** em tempo real durante execução
 - **Agrupamento inteligente** de itens não conformes por categoria
@@ -166,7 +166,7 @@ Install-Module -Name ImportExcel -Force -AllowClobber
 - [Windows Security](https://learn.microsoft.com/en-us/windows/security/)
 
 ### **Histórico de Versões:**
-- **v2.4** (07/10/2025): Reorganização categorias + Firefox + Interface visual profissional
+- **v2.4** (07/10/2025): Reorganização categorias + Firefox + Interface visual
 - **v2.2**: Expansão de controles + documentação + separação de colunas
 - **v2.0**: Baseline completo com 40+ controles
 - **v1.0**: Versão inicial
@@ -200,3 +200,4 @@ cd mde-assessment-powershell
 .\Assessment-MDE-V2.4.ps1
 
 ```
+
