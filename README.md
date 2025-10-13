@@ -6,7 +6,7 @@
 
 > **Complete Microsoft Defender for Endpoint compliance assessment**
 
-Professional security audit script that evaluates endpoint configurations against Microsoft best practices, Intune baseline and advanced Windows controls, with enhanced visual interface and detailed reports.
+Security audit script that evaluates endpoint configurations against Microsoft best practices, Intune baseline and advanced Windows controls, with enhanced visual interface and detailed reports.
 
 ## Features
 
@@ -85,7 +85,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ### **New in v2.4:**
 - **Complete reorganization**: clear separation between MDE Native and Windows
 - **Firefox protection** (Enhanced Tracking Protection)
-- **Professional visual interface** with boxes, icons and progress bars
+- **Visual interface** with boxes, icons and progress bars
 - **Compliance score** with graphical visualization by category
 - **Real-time progress indicators** during execution
 - **Smart grouping** of non-compliant items by category
@@ -166,7 +166,7 @@ Install-Module -Name ImportExcel -Force -AllowClobber
 - [Windows Security](https://learn.microsoft.com/en-us/windows/security/)
 
 ### **Version History:**
-- **v2.4** (10/07/2025): Category reorganization + Firefox + Professional visual interface
+- **v2.4** (10/07/2025): Category reorganization + Firefox + Visual interface
 - **v2.2**: Control expansion + documentation + column separation
 - **v2.0**: Complete baseline with 40+ controls
 - **v1.0**: Initial version
@@ -201,3 +201,4 @@ cd mde-assessment-powershell
 # Direct execution
 .\Assessment-MDE-V2.4.ps1
 ```
+
