@@ -61,18 +61,18 @@ Script de auditoria de segurança que avalia configurações do endpoint contra 
 #### 1. **Execução Básica** (Recomendada)
 ```powershell
 # Abrir PowerShell como Administrador e executar:
-.\Assessment-MDE-V2.4.ps1
+.\Assessment-MDE-V2.4_Pt_Br.ps1
 ```
 > Gera relatório em `C:\temp\MDE_Assessment_Report_YYYY-MM-DD_HH-MM.xlsx`
 
 #### 2. **Caminho Personalizado**
 ```powershell
-.\Assessment-MDE-V2.4.ps1 -OutputPath "C:\Relatorios\Assessment.xlsx"
+.\Assessment-MDE-V2.4_Pt_Br.ps1 -OutputPath "C:\Relatorios\Assessment.xlsx"
 ```
 
 #### 3. **Modo Verbose** (Detalhes de Progresso)
 ```powershell
-.\Assessment-MDE-V2.4.ps1 -Verbose
+.\Assessment-MDE-V2.4_Pt_Br.ps1 -Verbose
 ```
 
 #### 4. **Ajustar Política de Execução** (se necessário)
@@ -197,7 +197,8 @@ git clone https://github.com/SEU_USUARIO/mde-assessment-powershell.git
 cd mde-assessment-powershell
 
 # Execução direta
-.\Assessment-MDE-V2.4.ps1
+.\Assessment-MDE-V2.4_Pt_Br.ps1
 
 ```
+
 
